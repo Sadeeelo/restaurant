@@ -1,0 +1,38 @@
+{"menuitems":[
+    {"name": "Pizza", 
+    "description": "Our classic pizza is made with fresh dough, homemade tomato sauce, and a blend of mozzarella and parmesan cheeses.", 
+    "options": [
+        {"name": "Pepperoni","ingredients": "0-0", "price": null},
+        {"name": "Margharita","ingredients": "0-1", "price": null},
+        {"name": "Napoletana","ingredients": "0-2", "price": null},
+        {"name": "Siciliana","ingredients": "0-1", "price": null},
+        {"name": "Fritta","ingredients": "0-1", "price": null},
+        {"name": "Taglio","ingredients": "0-1", "price": null}
+        ]},
+    {"name": "Pasta", 
+    "description": "Our classic pizza is made with fresh dough, homemade tomato sauce, and a blend of mozzarella and parmesan cheeses.", 
+    "options": [
+        {"name": "Spaghetti alla carbonara","ingredients": "0-0", "price": null},
+        {"name": "Lasagna Bolognese","ingredients": "0-1", "price": null},
+        {"name": "Lasagna Bolognese","ingredients": "0-1", "price": null},
+        {"name": "Lasagna Bolognese","ingredients": "0-1", "price": null}
+    ]},      
+    {"name": "Salads", 
+    "description": "Our classic pizza is made with fresh dough, homemade tomato sauce, and a blend of mozzarella and parmesan cheeses.", 
+    "options": [
+        {"name": "Pepperoni","ingredients": "0-0", "price": null},
+        {"name": "Margharita","ingredients": "0-1", "price": null}
+    ]},  
+    {"name": "Steak", 
+    "description": "Our classic pizza is made with fresh dough, homemade tomato sauce, and a blend of mozzarella and parmesan cheeses.", 
+    "options": [
+        {"name": "Pepperoni","ingredients": "0-0", "price": null},
+        {"name": "Margharita","ingredients": "0-1", "price": null}
+    ]},  
+    {"name": "Seafood", 
+    "description": "Our classic pizza is made with fresh dough, homemade tomato sauce, and a blend of mozzarella and parmesan cheeses.", 
+    "options": [
+        {"name": "Pepperoni","ingredients": "0-0", "price": null},
+        {"name": "Margharita","ingredients": "0-1", "price": null}
+    ]}
+]}
