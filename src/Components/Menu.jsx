@@ -214,7 +214,7 @@ const Menu = () => {
           <div>
             <h3>Dessert</h3>
           </div>
-          <p>Indulge in our heavenly selection of desserts, crafted by our pastry chef with precision and passion. Each dessert is a symphony of flavors and textures, designed to delight your senses and leave a lasting impression.</p>
+          <p>Indulge in our heavenly selection of desserts, crafted by our pastry chef with precision and passion.</p>
             <button className='menu-button' onClick={() => expandMenu('Dessert')} >view options</button>
         </li>
       </ul>

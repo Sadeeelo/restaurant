@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight, faCircleLeft, faCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faYelp } from '@fortawesome/free-brands-svg-icons';
+import testimonialsImg from '../Images/testimonials.jpeg'
 import taIcon from '../Images/TAsvg.svg'
 
 const Testimonials = () => {
@@ -68,12 +69,17 @@ const Testimonials = () => {
                     <FontAwesomeIcon icon={faCircleLeft} />
                 </button>
                 <div className="testimonial">
-                    <h4 className="author">{testimonials[currentIndex].author}</h4>
-                    <p>{testimonials[currentIndex].text}</p>
-                        <hr />
-                    <div className='review-icons'>
-                        <FontAwesomeIcon icon={faYelp} />
-                        <img src={taIcon} />
+                    <div className='container'>
+                        <img src={testimonialsImg} className='image'/>
+                    </div>
+                    <div className="content">
+                        <h4 className="author">{testimonials[currentIndex].author}</h4>
+                        <p>{testimonials[currentIndex].text}</p>
+                            <hr />
+                        <div className='review-icons'>
+                            <FontAwesomeIcon icon={faYelp} />
+                            <img src={taIcon} />
+                        </div>
                     </div>
                 </div>
                 <button className="next-button" onClick={nextTestimonial}>
