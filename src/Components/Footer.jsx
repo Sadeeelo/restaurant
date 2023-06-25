@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../Images/Logo.png'
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,20 +10,18 @@ const Footer = () => {
                 <div className="row">
                     <div>
             <div className="copyright">
-                <h2>Razalalanana</h2>
+                <img src={Logo}></img>
             </div>
                         <div className="social-icons">
-                            <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} size="2x" /></a>
-                            <a href="https://www.twitter.com/"><FontAwesomeIcon icon={faTwitter} size="2x" /></a>
-                            <a href="https://www.instagram.com/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                            <a href="https://www.instagram.com/kahvilakesamokki/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
                         </div>
                     </div>
                     <div>
-                        <h3>Contact Us</h3>
+                        <h3>Visit Us</h3>
                         <p>
-                            123 Main St.<br />
-                            Anytown, USA 12345<br />
-                            555-555-5555
+                            Loukonlahden uimaranta<br />
+                            Pirkkala<br />
+                            Pirkanmaa<br />
                         </p>
                     </div>
                     {/* <div>

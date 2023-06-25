@@ -7,17 +7,19 @@ import Menu from '../Components/Menu';
 import Navbar from '../Components/Navbar';
 import About from '../Components/About'
 import Testimonials from '../Components/Testimonials';
+import Calendar from '../Components/Calendar';
 
 const Landing = () => {
   return (
-    <div>
-        <Navbar />
+    <div className='page'>
+      <Navbar />
       <HeroSection />
-      <About />
-      <Menu />
-      <Banner />
-      <Testimonials />
+      <Calendar />
       <Location />
+      <Menu />
+      {/* <Banner /> */}
+      <Testimonials />
+      <About />
       <Footer />
     </div>
   );

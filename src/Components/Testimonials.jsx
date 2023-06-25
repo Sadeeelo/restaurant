@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import SUP from '../Images/SUPboard.jpg'
+import Molkky from '../Images/molkky.png'
+import Spikeball from '../Images/spikeball-banner.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight, faCircleLeft, faCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faYelp } from '@fortawesome/free-brands-svg-icons';
@@ -8,24 +11,19 @@ import taIcon from '../Images/TAsvg.svg'
 const Testimonials = () => {
     const testimonials = [
         {
-            text: "I had the pleasure of dining at this Italian restaurant and it was an absolutely fantastic experience. The food was delicious, the service was outstanding, and the ambiance was perfect. I highly recommend the spaghetti carbonara and the tiramisu for dessert. I will definitely be returning!",
-            author: "John D"
+            text: "10€/H",
+            author: "SUP-lauta",
+            image: SUP
         },
         {
-            text: "I had a wonderful dining experience at this Italian restaurant. The food was authentic and delicious. My favorite dish was the risotto, it was creamy and flavorful. The service was great and the atmosphere was warm and inviting. I highly recommend this restaurant for anyone looking for a great Italian meal.",
-            author: "Jane S"
+            text: "4€/H",
+            author: "Mölkky",
+            image: Molkky
         },
         {
-            text: "This Italian restaurant exceeded all of my expectations. The pasta was cooked to perfection and the sauce was out of this world. I also loved the seafood options on the menu. The staff were friendly and accommodating service was great.",
-            author: "Bob J"
-        },
-        {
-            text: "The food at this Italian restaurant was absolutely delicious. From the appetizers to the main course and dessert, every dish was cooked to perfection. The staff was very friendly and attentive to our needs. I highly recommend the lasagna and tiramisu for dessert.",
-            author: "Jane R"
-        },
-        {
-            text: "I had a fantastic meal at this Italian restaurant. The pasta was cooked al dente and the sauce was rich and flavorful. The seafood was also fresh and cooked perfectly. The staff was friendly and made sure we had a great dining experience. I highly recommend this restaurant for anyone looking for a great Italian meal.",
-            author: "Jeff J"
+            text: "5€/H",
+            author: "Spikeball",
+            image: Spikeball
         }
     ];
 
@@ -63,23 +61,23 @@ const Testimonials = () => {
 
     return (
         <section className="testimonials-carousel">
-            <h2>Testimonials</h2>
+            <h2>Vuokrataan</h2>
             <div className="testimonial-container">
                 <button className="prev-button" onClick={prevTestimonial}>
                     <FontAwesomeIcon icon={faCircleLeft} />
                 </button>
                 <div className="testimonial">
                     <div className='container'>
-                        <img src={testimonialsImg} className='image'/>
+                        <img src={testimonials[currentIndex].image} className='image'/>
                     </div>
                     <div className="content">
-                        <h4 className="author">{testimonials[currentIndex].author}</h4>
-                        <p>{testimonials[currentIndex].text}</p>
-                            <hr />
-                        <div className='review-icons'>
+                        <h3 className="author">{testimonials[currentIndex].author}</h3>
+                            {/* <hr /> */}
+                        <h4>{testimonials[currentIndex].text}</h4>
+                        {/* <div className='review-icons'>
                             <FontAwesomeIcon icon={faYelp} />
                             <img src={taIcon} />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <button className="next-button" onClick={nextTestimonial}>

@@ -14,7 +14,7 @@ const Menupopup = ({item, open, toggleMenu}) => {
     <div className={`menu-popup ${open ? 'open' : ''}`} onClick={toggleMenu}>
         <div className='menu-content' onClick={(e) => handleChildElementClick(e)}>
                 <div className='close-menu'>
-                    <button onClick={toggleMenu}>X</button>
+                    {/* <button onClick={toggleMenu}>X</button> */}
                 </div>
             <div className='menu-items'>
                 <h2>{item.name}</h2>
@@ -22,22 +22,21 @@ const Menupopup = ({item, open, toggleMenu}) => {
                 {item.options.map((option) => {
                     return (
                     <div>
-                        <hr />
+                        {/* <hr /> */}
                         <h4>{option.name}</h4>
-                        <ul>
-                            {option.ingredients.map((ingredient) => {
-                                return <li>{ingredient}</li>
-                            })}
-                        </ul>
-                        <p><i>{option.price}</i></p>
+                            {option.ingredients ? option.ingredients.map((ingredient) => {
+                                return <p>{ingredient}</p>
+                            }) : ''}
+                        <p>{option.price}</p>
                     </div>
                     )
                 })}
 
             </div>
             <div className='menu-icons'>
-                <FontAwesomeIcon icon={faPhone} /> 555-555-5555
-                <p>123 Main St. Anytown, USA 12345</p>
+                <FontAwesomeIcon icon={faPhone} />
+                <p>Loukonlahden uimaranta</p>
+                <p>Pirkkala, Tampere</p>
             </div>
         </div>
         
