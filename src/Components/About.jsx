@@ -4,11 +4,11 @@ import cafe from '../Images/cafe.jpg'
 const About = () => {
   return (
     <section id="about">
+    <div className='image-wrapper'>
+        <img src={cafe} className='image'/>
+    </div>
       <div className='about'>
         <div>
-          <div className='container'>
-              <img src={cafe} className='image'/>
-          </div>
           <div className='about-wrapper'>
             <div className="container">
               <div>

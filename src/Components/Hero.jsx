@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import ReactPlayer from 'react-player';
 import Cafe from '../Images/cafe.jpg'
 import Logo from '../Images/Logo.png'
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 import './Hero.css';
 
@@ -57,6 +60,9 @@ const HeroSection = () => {
         title="Copy of dji_fly_20230613_174052_665_1686769564225_video"></iframe>
         <div className="video-overlay"></div>
       <img className='logo' src={Logo} alt="logo" />
+      </div>
+      <div className="hero-location">
+        <a href="#Calendar"><p className="hover-underline-animation"><FontAwesomeIcon icon={faLocationDot} /> Loukonlahden uimaranta</p></a>
       </div>
     </div>
   );
