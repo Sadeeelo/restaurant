@@ -147,8 +147,24 @@ body {
   .about .container {
     justify-content: space-between;
     display: flex;
-    background-color: #333;
     color: white;
+  }
+
+  .about .container div {
+    width: 50%;
+  }
+
+  .about .about-wrapper {
+    background-color: #333;
+    padding-bottom: 50px;
+    /* padding-bottom: 1em; */
+  }
+
+  .about-wrapper h4 {
+    color: white;
+    margin-block: 0;
+    margin-inline: 1rem;
+    font-size: 1.5em;
   }
 
   .about img {
@@ -156,13 +172,8 @@ body {
   }
 
   .about  p {
-    width: 40%;
-    margin-inline: 1em;
-  }
-
-  .about h2 {
-    margin-block: 2em;
-    text-align: center;
+    margin-inline: 1rem;
+    margin-bottom: 0;
   }
 
   /* Location */
@@ -557,8 +568,8 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   margin: 0 0.5rem;
   background-color: #ccc;
@@ -627,6 +638,20 @@ color: #f3dcb4;
   }
   .about hr {
     display: none;
+  }
+  .about .container {
+    display: contents;
+  }
+  .about .container div {
+    width: auto;
+  }
+  .about p {
+    margin-top: 0;
+    padding-top: 1em;
+    text-align: center;
+  }
+  .about h4 {
+    text-align: center;
   }
   #location {
     display: block;

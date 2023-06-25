@@ -37,7 +37,7 @@ const HeroSection = () => {
             
         </div>
       ))} */}
-      
+{/*       
       <div className="hero-video-container">
         <iframe  className='hero-video' width='1920' height='1080'
         src="https://www.youtube.com/embed/Y9sb01FCHLc?autoplay=1&mute=1&loop=1&showinfo=0&controls=0&vq=hd1080&playlist=Y9sb01FCHLc" 
@@ -46,6 +46,16 @@ const HeroSection = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
         </iframe>
         <div className="video-overlay"></div>
+      <img className='logo' src={Logo} alt="logo" />
+      </div> */}
+
+      
+      
+      <div className="hero-video-container">
+        <iframe src="https://player.vimeo.com/video/839420279?h=439f5e9bab&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&muted=1"  width="1920" height="1080"
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
+        title="Copy of dji_fly_20230613_174052_665_1686769564225_video"></iframe>
+        {/* <div className="video-overlay"></div> */}
       <img className='logo' src={Logo} alt="logo" />
       </div>
     </div>

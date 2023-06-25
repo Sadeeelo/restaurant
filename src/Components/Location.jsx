@@ -4,8 +4,8 @@ const Location = () => {
   return (
     <div id='location'>
       <div>
-        <h2>Location</h2>
-        <p>Kahvila Kesämökki</p>
+        <h2>Täältä löydät meidät</h2>
+        <p>Kirkkoveräjäntie 14</p>
         <p>Loukonlahden uimaranta</p>
         <p>Pirkkala</p>
       </div>

@@ -34,7 +34,7 @@ const Menupopup = ({item, open, toggleMenu}) => {
 
             </div>
             <div className='menu-icons'>
-                <FontAwesomeIcon icon={faPhone} />
+                {/* <FontAwesomeIcon icon={faPhone} /> */}
                 <p>Loukonlahden uimaranta</p>
                 <p>Pirkkala, Tampere</p>
             </div>

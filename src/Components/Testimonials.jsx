@@ -11,17 +11,17 @@ import taIcon from '../Images/TAsvg.svg'
 const Testimonials = () => {
     const testimonials = [
         {
-            text: "10€/H",
+            text: "10€/Tunti",
             author: "SUP-lauta",
             image: SUP
         },
         {
-            text: "4€/H",
+            text: "4€/Tunti",
             author: "Mölkky",
             image: Molkky
         },
         {
-            text: "5€/H",
+            text: "5€/Tunti",
             author: "Spikeball",
             image: Spikeball
         }
@@ -61,7 +61,7 @@ const Testimonials = () => {
 
     return (
         <section className="testimonials-carousel">
-            <h2>Vuokrataan</h2>
+            <h2>Vuokraa meiltä</h2>
             <div className="testimonial-container">
                 <button className="prev-button" onClick={prevTestimonial}>
                     <FontAwesomeIcon icon={faCircleLeft} />

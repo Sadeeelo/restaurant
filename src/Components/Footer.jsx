@@ -13,15 +13,15 @@ const Footer = () => {
                 <img src={Logo}></img>
             </div>
                         <div className="social-icons">
-                            <a href="https://www.instagram.com/kahvilakesamokki/"><FontAwesomeIcon icon={faInstagram} size="2x" /></a>
+                            <a href="https://www.instagram.com/kahvilakesamokki/"><FontAwesomeIcon icon={faInstagram} size="2x" /><p>@kahvilakesamokki</p></a>
                         </div>
                     </div>
                     <div>
-                        <h3>Visit Us</h3>
+                        {/* <h3>Visit Us</h3> */}
                         <p>
+                            Kirkkoveräjäntie 14<br />
                             Loukonlahden uimaranta<br />
                             Pirkkala<br />
-                            Pirkanmaa<br />
                         </p>
                     </div>
                     {/* <div>

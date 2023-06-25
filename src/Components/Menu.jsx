@@ -354,7 +354,7 @@ const Menu = () => {
             <h4>Toastit</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Toastit')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Toastit')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
           <img src={'https://maddogmom.com/wp-content/uploads/2011/12/dreamstime_s_15410610-600x399.jpg'} alt="Spikeball" />
@@ -362,7 +362,7 @@ const Menu = () => {
             <h4>Pannari-annokset</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Pannari-annokset')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Pannari-annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
           <img src={'https://i.imgur.com/SJGrfX3.png'} alt="Food" />
@@ -370,7 +370,7 @@ const Menu = () => {
             <h4>Jäätelö-Annokset</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Jäätelö-Annokset')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Jäätelö-Annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
           <img src={'https://i.imgur.com/SJGrfX3.png'} alt="Food" />
@@ -378,7 +378,7 @@ const Menu = () => {
             <h4>Ingman Irtojäätelö</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Ingman Irtojäätelö')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Ingman Irtojäätelö')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
           <img src={Coffee} alt="Juomat" />
@@ -386,7 +386,7 @@ const Menu = () => {
             <h4>JUOMAT</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Juomat')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Juomat')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
           <img src={Coffee} alt="Muut tuotteet" />
@@ -394,7 +394,7 @@ const Menu = () => {
             <h4>Muut tuotteet</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Muut Tuotteet')} ><p className="hover-underline-animation">view options</p></button>
+            <button className='menu-button' onClick={() => expandMenu('Muut Tuotteet')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
       </ul>
     </section>

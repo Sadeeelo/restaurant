@@ -40,6 +40,10 @@ body {
     overflow: hidden;
   }
 
+  .vp-sidedock *{
+    display: none;
+  }
+
   .video-overlay {
     top: 0;
     height: 100%;
