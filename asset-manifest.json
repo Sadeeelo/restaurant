@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/restaurant/static/css/main.485d3065.css",
-    "main.js": "/restaurant/static/js/main.5dcbf305.js",
+    "main.css": "/restaurant/static/css/main.e9c2269e.css",
+    "main.js": "/restaurant/static/js/main.471d600d.js",
     "static/js/787.1ed0c42c.chunk.js": "/restaurant/static/js/787.1ed0c42c.chunk.js",
     "static/media/molkky.png": "/restaurant/static/media/molkky.0acb5baa4634b51d2ab0.png",
     "static/media/cafe.jpg": "/restaurant/static/media/cafe.495fbd34e73d509dad54.jpg",
@@ -13,12 +13,12 @@
     "static/media/TAsvg.svg": "/restaurant/static/media/TAsvg.d07a136434fc42b0fc8ea911e058ae96.svg",
     "static/media/instagram.svg": "/restaurant/static/media/instagram.c9e22e768df96e7f2b47a181f0b280c8.svg",
     "index.html": "/restaurant/index.html",
-    "main.485d3065.css.map": "/restaurant/static/css/main.485d3065.css.map",
-    "main.5dcbf305.js.map": "/restaurant/static/js/main.5dcbf305.js.map",
+    "main.e9c2269e.css.map": "/restaurant/static/css/main.e9c2269e.css.map",
+    "main.471d600d.js.map": "/restaurant/static/js/main.471d600d.js.map",
     "787.1ed0c42c.chunk.js.map": "/restaurant/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.485d3065.css",
-    "static/js/main.5dcbf305.js"
+    "static/css/main.e9c2269e.css",
+    "static/js/main.471d600d.js"
   ]
 }
