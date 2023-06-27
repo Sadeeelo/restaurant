@@ -349,7 +349,7 @@ const Menu = () => {
       <h2>Menu</h2>
       <ul className='menu'>
         <li className='menu-item'>
-          <img src={'https://www.zimbokitchen.com/wp-content/uploads/2016/07/Zimbokitchen_pilchards_sandwich_VB.png'} alt="paddleboarding" />
+          <img src={'https://i.imgur.com/bilZZOt.jpg'} alt="toastit" />
           <div>
             <h4>Toastit</h4>
           </div>
@@ -357,7 +357,7 @@ const Menu = () => {
             <button className='menu-button' onClick={() => expandMenu('Toastit')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
-          <img src={'https://maddogmom.com/wp-content/uploads/2011/12/dreamstime_s_15410610-600x399.jpg'} alt="Spikeball" />
+          <img src={'https://i.imgur.com/ddADmsz.jpg'} alt="pannari annokset" />
           <div>
             <h4>Pannari-annokset</h4>
           </div>
@@ -365,7 +365,7 @@ const Menu = () => {
             <button className='menu-button' onClick={() => expandMenu('Pannari-annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
-          <img src={'https://i.imgur.com/SJGrfX3.png'} alt="Food" />
+          <img src={'https://i.imgur.com/3sILkqT.jpg'} alt="jJäätelö-Annokset" />
           <div>
             <h4>Jäätelö-Annokset</h4>
           </div>
@@ -373,7 +373,7 @@ const Menu = () => {
             <button className='menu-button' onClick={() => expandMenu('Jäätelö-Annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
-          <img src={'https://i.imgur.com/SJGrfX3.png'} alt="Food" />
+          <img src={'https://i.imgur.com/z7HMkKD.jpg'} alt="Ingman Irtojäätelö" />
           <div>
             <h4>Ingman Irtojäätelö</h4>
           </div>
@@ -381,9 +381,9 @@ const Menu = () => {
             <button className='menu-button' onClick={() => expandMenu('Ingman Irtojäätelö')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
-          <img src={Coffee} alt="Juomat" />
+          <img src={'https://i.imgur.com/zq6cIjK.jpg'} alt="Juomat" />
           <div>
-            <h4>JUOMAT</h4>
+            <h4>Juomat</h4>
           </div>
           {/* <p></p> */}
             <button className='menu-button' onClick={() => expandMenu('Juomat')} ><p className="hover-underline-animation">Valikoima</p></button>
