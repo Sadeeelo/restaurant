@@ -24,6 +24,7 @@ const Menupopup = ({item, open, toggleMenu}) => {
                         {/* <button onClick={toggleMenu}>X</button> */}
                     </div>
                 <div className='menu-items'>
+                    <div className="content">
                     <h2>{item.name}</h2>
                     <p>{item.description}</p>
                     {item.options.map((option) => {
@@ -38,6 +39,8 @@ const Menupopup = ({item, open, toggleMenu}) => {
                         </div>
                         )
                     })}
+
+                    </div>
                     <div className='menu-icons'>
                         
                         <img className='logo' src={Logo} alt="logo" />

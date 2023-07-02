@@ -4,6 +4,7 @@ import Molkky from '../Images/molkky.png'
 import Spikeball from '../Images/spikeball-banner.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight, faCircleLeft, faCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYelp } from '@fortawesome/free-brands-svg-icons';
 import testimonialsImg from '../Images/testimonials.jpeg'
 import taIcon from '../Images/TAsvg.svg'
@@ -62,6 +63,7 @@ const Testimonials = () => {
     return (
         <section className="testimonials-carousel">
             <h2>Vuokraa meiltä</h2>
+            <p>Voit varata SUP-laudat tai pihapelit laittamalla viestiä meille <a href="https://www.instagram.com/kahvilakesamokki/">instagramissa <FontAwesomeIcon icon={faInstagram} /></a></p>
             <div className="testimonial-container">
                 <button className="prev-button" onClick={prevTestimonial}>
                     <FontAwesomeIcon icon={faCircleLeft} />

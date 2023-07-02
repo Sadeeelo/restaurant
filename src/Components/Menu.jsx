@@ -84,11 +84,6 @@ const Menu = () => {
             price: '8,50€'
           },
           {
-            name: "OREO PANNARI",
-            ingredients: ['mansikka, nutella, oreo & kermavaahto'],
-            price: '8,50€'
-          },
-          {
             name: "",
             ingredients: ['JÄÄTELÖPALLO + 2,00€'],
             price: ''
@@ -107,27 +102,22 @@ const Menu = () => {
           {
             name: "MARJA JÄDE",
             ingredients: ['vaniljajäätelö, mansikka, mustikka & suklaakastike'],
-            price: '6,00€'
-          },
-          {
-            name: "POPPIS JÄDE",
-            ingredients: ['vaniljajäätelö, popcorn & kinuskikastike'],
-            price: '5,00€'
+            price: '6,50€'
           },
           {
             name: "KINDER JÄDE",
             ingredients: ['vaniljajäätelö, mansikka, kinder & suklaakastike'],
-            price: '6,00€'
+            price: '6,50€'
           },
           {
             name: "OREO JÄDE",
-            ingredients: ['vaniljajäätelö, mansikka, oreo & nutella'],
-            price: '6,00€'
+            ingredients: ['vaniljajäätelö, mansikka, oreo & suklaakastike'],
+            price: '6,50€'
           },
           {
             name: "DAIM JÄDE",
-            ingredients: ['vaniljajäätelö, daim-rouhe, oreo & nutella'],
-            price: '5,50€'
+            ingredients: ['vaniljajäätelö, daim-rouhe, oreo & kinuskikastike'],
+            price: '6,00€'
           },
           {
             name: "IRTOJÄÄTELÖPALLO",
@@ -199,77 +189,72 @@ const Menu = () => {
           {
             name: "VESIPULLO",
             ingredients: [''],
-            price: '1,00€'
+            price: '1,50€'
           },
           {
             name: "LIMSA",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,00€'
           },
           {
             name: "NOVELLE",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,00€'
           },
           {
             name: "GATORADE",
             ingredients: [''],
-            price: '1,00€'
+            price: '4,00€'
           },
           {
             name: "ENERGIAJUOMA",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,50€'
           },
           {
             name: "VICHY",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,00€'
           },
           {
             name: "TEE",
             ingredients: [''],
-            price: '1,00€'
+            price: '2,00€'
           },
           {
             name: "JÄÄTEE",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,50€'
           },
           {
             name: "ITALIAN SOODA",
             ingredients: [''],
-            price: '1,00€'
+            price: '3,50€'
           },
           {
             name: "KAHVI",
             ingredients: [''],
-            price: '1,00€'
-          },
-          {
-            name: "KAHVI",
-            ingredients: [''],
-            price: '1,00€'
+            price: '2,00€'
           },
           {
             name: "JÄÄKAHVI",
             ingredients: [''],
-            price: '1,00€'
+            price: '5,00€'
           },
           {
             name: "HAPPY JOE APPLE 0%",
             ingredients: [''],
-            price: '1,00€'
+            price: '5,00€'
           },
           {
             name: "ORIGINAL LONG DRINK 0%",
             ingredients: [''],
-            price: '1,00€'
+            price: '5,00€'
           },
           {
             name: "HEINEKEN 0%",
             ingredients: [''],
-            price: '1,00€'
+            price: '5,00€'
           },
         ]
       },
@@ -389,7 +374,7 @@ const Menu = () => {
             <button className='menu-button' onClick={() => expandMenu('Juomat')} ><p className="hover-underline-animation">Valikoima</p></button>
         </li>
         <li className='menu-item'>
-          <img src={Coffee} alt="Muut tuotteet" />
+          <img src={'https://i.imgur.com/DWW581A.jpg'} alt="Muut tuotteet" />
           <div>
             <h4>Muut tuotteet</h4>
           </div>
