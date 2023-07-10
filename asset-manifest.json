@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/restaurant/static/css/main.161b889a.css",
-    "main.js": "/restaurant/static/js/main.43b16dbc.js",
-    "static/js/787.2ded73ff.chunk.js": "/restaurant/static/js/787.2ded73ff.chunk.js",
-    "static/media/molkky.png": "/restaurant/static/media/molkky.0acb5baa4634b51d2ab0.png",
-    "static/media/cafe.jpg": "/restaurant/static/media/cafe.495fbd34e73d509dad54.jpg",
-    "static/media/spikeball-banner.jpg": "/restaurant/static/media/spikeball-banner.0cfc7f3c3a867d671e1e.jpg",
-    "static/media/coffee.jpg": "/restaurant/static/media/coffee.0f9b4017ce57a57ff2df.jpg",
-    "static/media/testimonials.jpeg": "/restaurant/static/media/testimonials.de667acc945ae9161600.jpeg",
-    "static/media/SUPboard.jpg": "/restaurant/static/media/SUPboard.67eec39684d789c392db.jpg",
-    "static/media/Logo.png": "/restaurant/static/media/Logo.3c51c98b41cbd5dd1379.png",
-    "static/media/TAsvg.svg": "/restaurant/static/media/TAsvg.d07a136434fc42b0fc8ea911e058ae96.svg",
-    "static/media/instagram.svg": "/restaurant/static/media/instagram.c9e22e768df96e7f2b47a181f0b280c8.svg",
-    "index.html": "/restaurant/index.html",
-    "main.161b889a.css.map": "/restaurant/static/css/main.161b889a.css.map",
-    "main.43b16dbc.js.map": "/restaurant/static/js/main.43b16dbc.js.map",
-    "787.2ded73ff.chunk.js.map": "/restaurant/static/js/787.2ded73ff.chunk.js.map"
+    "main.css": "/static/css/main.161b889a.css",
+    "main.js": "/static/js/main.c5cb1a25.js",
+    "static/js/787.2ded73ff.chunk.js": "/static/js/787.2ded73ff.chunk.js",
+    "static/media/molkky.png": "/static/media/molkky.0acb5baa4634b51d2ab0.png",
+    "static/media/cafe.jpg": "/static/media/cafe.495fbd34e73d509dad54.jpg",
+    "static/media/spikeball-banner.jpg": "/static/media/spikeball-banner.0cfc7f3c3a867d671e1e.jpg",
+    "static/media/coffee.jpg": "/static/media/coffee.0f9b4017ce57a57ff2df.jpg",
+    "static/media/testimonials.jpeg": "/static/media/testimonials.de667acc945ae9161600.jpeg",
+    "static/media/SUPboard.jpg": "/static/media/SUPboard.67eec39684d789c392db.jpg",
+    "static/media/Logo.png": "/static/media/Logo.3c51c98b41cbd5dd1379.png",
+    "static/media/TAsvg.svg": "/static/media/TAsvg.d07a136434fc42b0fc8ea911e058ae96.svg",
+    "static/media/instagram.svg": "/static/media/instagram.c9e22e768df96e7f2b47a181f0b280c8.svg",
+    "index.html": "/index.html",
+    "main.161b889a.css.map": "/static/css/main.161b889a.css.map",
+    "main.c5cb1a25.js.map": "/static/js/main.c5cb1a25.js.map",
+    "787.2ded73ff.chunk.js.map": "/static/js/787.2ded73ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.161b889a.css",
-    "static/js/main.43b16dbc.js"
+    "static/js/main.c5cb1a25.js"
   ]
 }
