@@ -2,7 +2,8 @@ import React from 'react'
 
 const Location = () => {
   return (
-    <div id='location'>
+    <section class='location'>
+      <a class="anchor" id='location'></a>
       <div>
         <h2>Täältä löydät meidät</h2>
         <p>Kirkkoveräjäntie 14</p>
@@ -23,7 +24,7 @@ const Location = () => {
                 </iframe>
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

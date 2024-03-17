@@ -8,6 +8,7 @@ import Navbar from '../Components/Navbar';
 import About from '../Components/About'
 import Testimonials from '../Components/Testimonials';
 import Calendar from '../Components/Calendar';
+import Feature from '../Components/Feature';
 
 const Landing = () => {
   return (
@@ -15,6 +16,7 @@ const Landing = () => {
       <Navbar />
       <HeroSection />
       <Calendar />
+      {/* <Feature /> */}
       <Location />
       <Menu />
       {/* <Banner /> */}

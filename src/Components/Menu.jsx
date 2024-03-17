@@ -329,57 +329,58 @@ const Menu = () => {
   }
 
   return (
-    <section id="menu">
+    <section class="menuSection">
+      <a class="anchor" id='menu'></a>
       <Menupopup item={item} open={menuOpen} toggleMenu={toggleMenu}/>
-      <h2>Menu</h2>
+      <h2>MENU</h2>
       <ul className='menu'>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Toastit')} >
           <img src={'https://i.imgur.com/bilZZOt.jpg'} alt="toastit" />
           <div>
             <h4>Toastit</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Toastit')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Pannari-annokset')} >
           <img src={'https://i.imgur.com/ddADmsz.jpg'} alt="pannari annokset" />
           <div>
             <h4>Pannari-annokset</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Pannari-annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Jäätelö-Annokset')} >
           <img src={'https://i.imgur.com/3sILkqT.jpg'} alt="jJäätelö-Annokset" />
           <div>
             <h4>Jäätelö-Annokset</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Jäätelö-Annokset')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Ingman Irtojäätelö')} >
           <img src={'https://i.imgur.com/z7HMkKD.jpg'} alt="Ingman Irtojäätelö" />
           <div>
             <h4>Ingman Irtojäätelö</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Ingman Irtojäätelö')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Juomat')} >
           <img src={'https://i.imgur.com/zq6cIjK.jpg'} alt="Juomat" />
           <div>
             <h4>Juomat</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Juomat')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
-        <li className='menu-item'>
+        <li className='menu-item' onClick={() => expandMenu('Muut Tuotteet')} >
           <img src={'https://i.imgur.com/DWW581A.jpg'} alt="Muut tuotteet" />
           <div>
             <h4>Muut tuotteet</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button' onClick={() => expandMenu('Muut Tuotteet')} ><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li>
       </ul>
     </section>

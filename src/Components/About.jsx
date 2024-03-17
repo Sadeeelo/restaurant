@@ -4,9 +4,6 @@ import cafe from '../Images/cafe.jpg'
 const About = () => {
   return (
     <section id="about">
-    <div className='image-wrapper'>
-        <img src={cafe} className='image'/>
-    </div>
       <div className='about'>
         <div>
           <div className='about-wrapper'>
@@ -33,6 +30,9 @@ const About = () => {
 
         </div>
       </div>
+    <div className='image-wrapper'>
+        <img src={cafe} className='image'/>
+    </div>
       {/* <h2>About Us</h2> */}
     </section>    
   )

@@ -3,7 +3,7 @@ import SUP from '../Images/SUPboard.jpg'
 import Molkky from '../Images/molkky.png'
 import Spikeball from '../Images/spikeball-banner.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight, faCircleLeft, faCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faArrowRight, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYelp } from '@fortawesome/free-brands-svg-icons';
 import testimonialsImg from '../Images/testimonials.jpeg'
@@ -62,34 +62,35 @@ const Testimonials = () => {
 
     return (
         <section className="testimonials-carousel">
-            <h2>Vuokraa meiltä</h2>
-            <p>Voit varata SUP-laudat tai pihapelit laittamalla viestiä meille <a href="https://www.instagram.com/kahvilakesamokki/">instagramissa <FontAwesomeIcon icon={faInstagram} /></a></p>
+        <a class="anchor" id='vuokraa'></a>
+            <h2>VUOKRAA MEILTÄ</h2>
+            {/* <p>Voit varata SUP-laudat tai pihapelit laittamalla viestiä meille <a href="https://www.instagram.com/kahvilakesamokki/">instagramissa <FontAwesomeIcon icon={faInstagram} /></a></p> */}
             <div className="testimonial-container">
-                <button className="prev-button" onClick={prevTestimonial}>
-                    <FontAwesomeIcon icon={faCircleLeft} />
-                </button>
                 <div className="testimonial">
-                    <div className='container'>
-                        <img src={testimonials[currentIndex].image} className='image'/>
-                    </div>
                     <div className="content">
                         <h3 className="author">{testimonials[currentIndex].author}</h3>
                             {/* <hr /> */}
-                        <h4>{testimonials[currentIndex].text}</h4>
+                        <p>{testimonials[currentIndex].text}</p>
                         {/* <div className='review-icons'>
                             <FontAwesomeIcon icon={faYelp} />
                             <img src={taIcon} />
                         </div> */}
                     </div>
+                    <div className='container'>
+                        <img src={testimonials[currentIndex].image} className='image'/>
+                    </div>
                 </div>
-                <button className="next-button" onClick={nextTestimonial}>
-                <FontAwesomeIcon icon={faCircleRight} />
-                </button>
             </div>
             <div className="dots-container">
+                <button className="prev-button" onClick={prevTestimonial}>
+                    <FontAwesomeIcon icon={faChevronLeft} />
+                </button>
                 {testimonials.map((testimonial, index) => (
                     <span key={index} className={`dot ${index === currentIndex ? 'active' : ''}`} onClick={() => setCurrentIndex(index)}></span>
                 ))}
+                <button className="next-button" onClick={nextTestimonial}>
+                <FontAwesomeIcon icon={faChevronRight} />
+                </button>
             </div>
         </section>
     );
