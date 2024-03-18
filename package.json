@@ -1,7 +1,7 @@
 {
   "name": "kahvila_kesamokki",
   "version": "0.1.0",
-  "homepage": "https://AaronRBetts.github.io",
+  "homepage": "https://kahvilakesamokki.fi/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
