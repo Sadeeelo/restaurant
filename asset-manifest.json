@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.061aa203.css",
-    "main.js": "/static/js/main.804ac1ab.js",
-    "static/js/787.2ded73ff.chunk.js": "/static/js/787.2ded73ff.chunk.js",
+    "main.css": "/static/css/main.451c33fb.css",
+    "main.js": "/static/js/main.d58a8cc2.js",
+    "static/js/787.6267fc9d.chunk.js": "/static/js/787.6267fc9d.chunk.js",
     "static/media/molkky.png": "/static/media/molkky.0acb5baa4634b51d2ab0.png",
     "static/media/cafe.jpg": "/static/media/cafe.495fbd34e73d509dad54.jpg",
     "static/media/spikeball-banner.jpg": "/static/media/spikeball-banner.0cfc7f3c3a867d671e1e.jpg",
@@ -13,12 +13,12 @@
     "static/media/TAsvg.svg": "/static/media/TAsvg.d07a136434fc42b0fc8ea911e058ae96.svg",
     "static/media/instagram.svg": "/static/media/instagram.c9e22e768df96e7f2b47a181f0b280c8.svg",
     "index.html": "/index.html",
-    "main.061aa203.css.map": "/static/css/main.061aa203.css.map",
-    "main.804ac1ab.js.map": "/static/js/main.804ac1ab.js.map",
-    "787.2ded73ff.chunk.js.map": "/static/js/787.2ded73ff.chunk.js.map"
+    "main.451c33fb.css.map": "/static/css/main.451c33fb.css.map",
+    "main.d58a8cc2.js.map": "/static/js/main.d58a8cc2.js.map",
+    "787.6267fc9d.chunk.js.map": "/static/js/787.6267fc9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.061aa203.css",
-    "static/js/main.804ac1ab.js"
+    "static/css/main.451c33fb.css",
+    "static/js/main.d58a8cc2.js"
   ]
 }
