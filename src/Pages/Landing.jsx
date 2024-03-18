@@ -9,11 +9,13 @@ import About from '../Components/About'
 import Testimonials from '../Components/Testimonials';
 import Calendar from '../Components/Calendar';
 import Feature from '../Components/Feature';
+import Mobnav from '../Components/Mobnav';
 
 const Landing = () => {
   return (
     <div className='page'>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Mobnav />
       <HeroSection />
       <Calendar />
       {/* <Feature /> */}

@@ -8,8 +8,8 @@ const Navbar = () => {
     return (
         <nav id='nav'>
             <div>
-                <a href="#"><p className="hover-underline-animation">HOME</p></a>
-                <a href="#location"><p className="hover-underline-animation">LOCATION</p></a>
+                <a href="#"><p className="hover-underline-animation">ETUSIVU</p></a>
+                <a href="#location"><p className="hover-underline-animation">SIJAINTI</p></a>
                 <a href="#menu"><p className="hover-underline-animation">MENU</p></a>
                 <a href="#vuokraa"><p className="hover-underline-animation">VUOKRAA</p></a>
                 {/* <Link to="/"><p className="hover-underline-animation">Home</p></Link>
