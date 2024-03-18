@@ -62,7 +62,7 @@ const HeroSection = () => {
       <img className='logo' src={Logo} alt="logo" />
       </div>
       <div className="hero-location">
-        <a href="#location"><p className="hover-underline-animation"><FontAwesomeIcon icon={faLocationDot} /> Loukonlahden uimaranta</p></a>
+        <a href="#location"><p><FontAwesomeIcon icon={faLocationDot} /> Loukonlahden uimaranta</p></a>
       </div>
     </div>
   );
