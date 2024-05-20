@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.77033001.css",
-    "main.js": "/static/js/main.b60d3cc9.js",
+    "main.css": "/static/css/main.a6199d79.css",
+    "main.js": "/static/js/main.8ccad9fd.js",
     "static/js/787.6267fc9d.chunk.js": "/static/js/787.6267fc9d.chunk.js",
+    "static/media/Cafe2.jpg": "/static/media/Cafe2.7a3cf58d55bb4b0d0135.jpg",
+    "static/media/Cafe3.jpg": "/static/media/Cafe3.70fded78cef2e44261c4.jpg",
+    "static/media/cafe.jpg": "/static/media/cafe.65e5a3ede09a24db2dde.jpg",
     "static/media/molkky.png": "/static/media/molkky.0acb5baa4634b51d2ab0.png",
-    "static/media/cafe.jpg": "/static/media/cafe.495fbd34e73d509dad54.jpg",
     "static/media/spikeball-banner.jpg": "/static/media/spikeball-banner.0cfc7f3c3a867d671e1e.jpg",
     "static/media/coffee.jpg": "/static/media/coffee.0f9b4017ce57a57ff2df.jpg",
-    "static/media/testimonials.jpeg": "/static/media/testimonials.de667acc945ae9161600.jpeg",
     "static/media/SUPboard.jpg": "/static/media/SUPboard.67eec39684d789c392db.jpg",
     "static/media/Logo.png": "/static/media/Logo.3c51c98b41cbd5dd1379.png",
-    "static/media/TAsvg.svg": "/static/media/TAsvg.d07a136434fc42b0fc8ea911e058ae96.svg",
+    "static/media/TAsvg.svg": "/static/media/TAsvg.d2ce6ec566e387eceeb59df40a09aef9.svg",
     "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.c9e22e768df96e7f2b47a181f0b280c8.svg",
-    "main.77033001.css.map": "/static/css/main.77033001.css.map",
-    "main.b60d3cc9.js.map": "/static/js/main.b60d3cc9.js.map",
+    "main.a6199d79.css.map": "/static/css/main.a6199d79.css.map",
+    "main.8ccad9fd.js.map": "/static/js/main.8ccad9fd.js.map",
     "787.6267fc9d.chunk.js.map": "/static/js/787.6267fc9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77033001.css",
-    "static/js/main.b60d3cc9.js"
+    "static/css/main.a6199d79.css",
+    "static/js/main.8ccad9fd.js"
   ]
 }
