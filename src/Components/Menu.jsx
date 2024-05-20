@@ -332,23 +332,32 @@ const Menu = () => {
     <section class="menuSection">
       <a class="anchor" id='menu'></a>
       <Menupopup item={item} open={menuOpen} toggleMenu={toggleMenu}/>
-      <h2>MENU</h2>
+      <h2>2023 MENU</h2>
+      <h3 className='menu-Subheader'>2024 tulossa pian</h3>
+      <ul>
+        <li>ei Toasteijä</li>
+      </ul>
       <ul className='menu'>
-        <li className='menu-item' onClick={() => expandMenu('Toastit')} >
+        {/* <li className='menu-item' onClick={() => expandMenu('Toastit')} >
           <img src={'https://i.imgur.com/bilZZOt.jpg'} alt="toastit" />
           <div>
             <h4>Toastit</h4>
           </div>
-          {/* <p></p> */}
             <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
-        </li>
-        <li className='menu-item' onClick={() => expandMenu('Pannari-annokset')} >
-          <img src={'https://i.imgur.com/ddADmsz.jpg'} alt="pannari annokset" />
+        </li> */}
+        <li className='menu-item' >
+          <img src={'https://i.imgur.com/xuk8P6n.png'} alt="Wrapit" />
           <div>
-            <h4>Pannari-annokset</h4>
+            <h4>Wrapit</h4>
           </div>
-          {/* <p></p> */}
-            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="hover-underline-animation"></p></button>
+        </li>
+        <li className='menu-item' >
+          <img src={'https://mrpanini.fi/app/uploads/2022/04/02-kana-mrpanini-22-10-2-1-scaled.jpg'} alt="pannari annokset" />
+          <div>
+            <h4>Paninit</h4>
+          </div>
+            <button className='menu-button'><p className="hover-underline-animation"></p></button>
         </li>
         <li className='menu-item' onClick={() => expandMenu('Jäätelö-Annokset')} >
           <img src={'https://i.imgur.com/3sILkqT.jpg'} alt="jJäätelö-Annokset" />

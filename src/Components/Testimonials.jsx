@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft, faArrowRight, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYelp } from '@fortawesome/free-brands-svg-icons';
-import testimonialsImg from '../Images/testimonials.jpeg'
 import taIcon from '../Images/TAsvg.svg'
 
 const Testimonials = () => {

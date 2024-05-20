@@ -10,19 +10,21 @@ import Testimonials from '../Components/Testimonials';
 import Calendar from '../Components/Calendar';
 import Feature from '../Components/Feature';
 import Mobnav from '../Components/Mobnav';
+import HeroSlide from '../Components/HeroSlide';
 
 const Landing = () => {
   return (
     <div className='page'>
       {/* <Navbar /> */}
       <Mobnav />
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <HeroSlide />
       <Calendar />
       {/* <Feature /> */}
       <Location />
       <Menu />
       {/* <Banner /> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <About />
       <Footer />
     </div>

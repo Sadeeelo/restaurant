@@ -33,13 +33,17 @@ const HeroSection = () => {
   }, [currentImage, images.length]);
 
   return (
+    <div>
+      
     <div className="hero-section" id='hero'>
-      {/* {images.map((image, index) => (
+      {images.map((image, index) => (
         <div className={`image-container ${currentImage === index ? "show" : "hide"}`}>
           <img src={image.url} alt="Restaurant Image"  className={`hero-image ${currentImage === index ? "grow" : "shrink"}`} />
             
         </div>
-      ))} */}
+      ))}
+      
+    <div className="hero-box"></div>
 {/*       
       <div className="hero-video-container">
         <iframe  className='hero-video' width='1920' height='1080'
@@ -53,7 +57,7 @@ const HeroSection = () => {
       </div> */}
 
       
-      
+{/*       
       <div className="hero-video-container">
         <iframe src="https://player.vimeo.com/video/839420279?h=439f5e9bab&autoplay=1&loop=1&title=0&byline=0&portrait=0&autopause=0&muted=1"  width="1920" height="1080"
         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" 
@@ -63,7 +67,8 @@ const HeroSection = () => {
       </div>
       <div className="hero-location">
         <a href="#location"><p><FontAwesomeIcon icon={faLocationDot} /> Loukonlahden uimaranta</p></a>
-      </div>
+      </div> */}
+    </div>
     </div>
   );
 }
