@@ -334,9 +334,6 @@ const Menu = () => {
       <Menupopup item={item} open={menuOpen} toggleMenu={toggleMenu}/>
       <h2>2023 MENU</h2>
       <h3 className='menu-Subheader'>2024 tulossa pian</h3>
-      <ul>
-        <li>ei Toasteijä</li>
-      </ul>
       <ul className='menu'>
         {/* <li className='menu-item' onClick={() => expandMenu('Toastit')} >
           <img src={'https://i.imgur.com/bilZZOt.jpg'} alt="toastit" />

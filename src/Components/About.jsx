@@ -22,9 +22,9 @@ const About = () => {
                 Meille on helppo saapua Tampereen keskustasta bussilla numero 8, 
                 joka tulee Nuolialan koululle tai sitten voit pysähtyä meille Pyhäjärven ympäri pyöräillessäsi! Ilmaista parkkitilaa on myös hyvin saatavilla kahvilan ympäristösssä. <br /><br />
                 </p>
-                <p>
+                {/* <p>
                   <a href='/About'>Lue Lisää</a>
-                </p>
+                </p> */}
                 <p><b>Tervetuloa Kesämökille! </b></p>
 
               </div>
