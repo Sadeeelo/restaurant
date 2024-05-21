@@ -187,10 +187,10 @@ body {
     position:absolute;
     left:0;
     opacity: 50%;
-    top:-100%;
-    bottom:0;
-    width:150%;
-    height: 180%;
+    top: -50vh;
+    transform: scaleY(1.5);
+    width:100vw;
+    height: 100vh;
     object-fit:cover;
     mix-blend-mode:screen;
     z-index: 999;
@@ -966,7 +966,6 @@ color: #f3dcb4;
 }
 
 .heroSlider {
-  overflow: visible;
   position: absolute;
   width: 100vw;
   top: 0;
