@@ -102,37 +102,27 @@ const Menu = () => {
           {
             name: "MARJA JÄDE",
             ingredients: ['vaniljajäätelö, mansikka, mustikka & suklaakastike'],
-            price: '6,50€'
+            price: '8,50€'
           },
           {
-            name: "KINDER JÄDE",
-            ingredients: ['vaniljajäätelö, mansikka, kinder & suklaakastike'],
-            price: '6,50€'
+            name: "NAMU JÄDE",
+            ingredients: ['vaniljajäätelö, hedelmäkarkkeja, strösseli & kermavaahto'],
+            price: '8,50€'
           },
           {
             name: "OREO JÄDE",
-            ingredients: ['vaniljajäätelö, mansikka, oreo & suklaakastike'],
-            price: '6,50€'
+            ingredients: ['vaniljajäätelö, mansikka, oreo & NUTELLA'],
+            price: '8,50€'
           },
           {
-            name: "DAIM JÄDE",
-            ingredients: ['vaniljajäätelö, daim-rouhe, oreo & kinuskikastike'],
-            price: '6,00€'
+            name: "BANANA SPLIT",
+            ingredients: ['3 palloa valitsemiasi jäätelöitä, kermavaahto, valitsemasi kastike, keksi'],
+            price: '9,00€'
           },
           {
-            name: "IRTOJÄÄTELÖPALLO",
-            ingredients: [''],
-            price: '3,50€'
-          },
-          {
-            name: "",
-            ingredients: ['KASTIKE + 0,50€'],
-            price: ''
-          },
-          {
-            name: "",
-            ingredients: ['STRÖSSELI + 0,50€'],
-            price: ''
+            name: "ROCKY ROAD",
+            ingredients: ['vaniljajäätelö, suklaa- ja kinuskikastike, vaahtokarkki, suolapähkinä & kermavaahto'],
+            price: '9,00€'
           }
         ]
       },
