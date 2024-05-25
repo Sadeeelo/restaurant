@@ -184,10 +184,10 @@ const Menu = () => {
           {
             name: "TRIP",
             ingredients: [''],
-            price: '1,00€'
+            price: '1,50€'
           },
           {
-            name: "VESIPULLO",
+            name: "VESIPULLO / KUPLAVESI",
             ingredients: [''],
             price: '1,50€'
           },
@@ -222,39 +222,54 @@ const Menu = () => {
             price: '2,00€'
           },
           {
-            name: "JÄÄTEE",
-            ingredients: [''],
-            price: '3,50€'
-          },
-          {
-            name: "ITALIAN SOODA",
-            ingredients: [''],
-            price: '3,50€'
-          },
-          {
             name: "KAHVI",
             ingredients: [''],
-            price: '2,00€'
+            price: '2,50€'
           },
           {
             name: "JÄÄKAHVI",
             ingredients: [''],
-            price: '5,00€'
+            price: '5,50€'
           },
           {
-            name: "HAPPY JOE APPLE 0%",
+            name: "ALKOHOLIA",
             ingredients: [''],
-            price: '5,00€'
+            price: ''
           },
           {
-            name: "ORIGINAL LONG DRINK 0%",
+            name: "HAPPY JOE",
             ingredients: [''],
-            price: '5,00€'
+            price: '6,50€'
           },
           {
-            name: "HEINEKEN 0%",
+            name: "LONKERO",
             ingredients: [''],
-            price: '5,00€'
+            price: '7,00€'
+          },
+          {
+            name: "SOL",
+            ingredients: [''],
+            price: '6,50€'
+          },
+          {
+            name: "SANDELS",
+            ingredients: [''],
+            price: '6,50€'
+          },
+          {
+            name: "LAHDEN ERIKOIS SUMMER 0,5",
+            ingredients: [''],
+            price: '8,00€'
+          },
+          {
+            name: "FREIXENET - KUOHUVIINI",
+            ingredients: [''],
+            price: '8,50€'
+          },
+          {
+            name: "VIINI ALBALI-VALKOVIINI",
+            ingredients: [''],
+            price: '8,00€'
           },
         ]
       },
@@ -263,34 +278,44 @@ const Menu = () => {
         description: '',
         options: [
           {
-            name: "BAREBELLS PROTEIINI-JUOMA",
+            name: "SUKLAAPATUKKA",
             ingredients: [''],
-            price: '€4.00'
+            price: '€2,00'
           },
           {
-            name: "BAREBELLS PROTEIINI-PATUKKA",
-            ingredients: [''],
-            price: '€3.50'
-          },
-          {
-            name: "FAZERIN SININEN",
-            ingredients: [''],
-            price: '€1.50'
-          },
-          {
-            name: "GEISHA",
-            ingredients: [''],
-            price: '€1.50'
+            name: "NACHOT",
+            ingredients: ['Salsa, ranskakerma, text-mex kastike. Extra kastike 0,5'],
+            price: '€4,00'
           },
           {
             name: "SIPSIPUSSI",
             ingredients: [''],
-            price: '€2.50'
+            price: '€2,50'
           },
           {
-            name: "PULLA/VAIHTUVA LEIVOS",
+            name: "SUKLAAPATUKKA",
             ingredients: [''],
-            price: '€2.50'
+            price: '€2,00'
+          },
+          {
+            name: "SMOOTHIE",
+            ingredients: [''],
+            price: '€4,50'
+          },
+          {
+            name: "KEKSI",
+            ingredients: [''],
+            price: '€2,50'
+          },
+          {
+            name: "KORVAPUUSTI",
+            ingredients: [''],
+            price: '€3,00'
+          },
+          {
+            name: "PORKKANAKAKKU (G, L)",
+            ingredients: [''],
+            price: '€2,50'
           },
           {
             name: "",
@@ -347,14 +372,14 @@ const Menu = () => {
           <div>
             <h4>Wrapit</h4>
           </div>
-            <button className='menu-button'><p className="hover-underline-animation"></p></button>
+            <button disabled className='menu-button'><p className="menu-button-text">£ 6,50</p></button>
         </li>
         <li className='menu-item' >
           <img src={'https://mrpanini.fi/app/uploads/2022/04/02-kana-mrpanini-22-10-2-1-scaled.jpg'} alt="pannari annokset" />
           <div>
             <h4>Paninit</h4>
           </div>
-            <button className='menu-button'><p className="hover-underline-animation"></p></button>
+            <button disabled className='menu-button'><p className="menu-button-text">£ 6,50</p></button>
         </li>
         <li className='menu-item' onClick={() => expandMenu('Jäätelö-Annokset')} >
           <img src={'https://i.imgur.com/3sILkqT.jpg'} alt="jJäätelö-Annokset" />
@@ -362,7 +387,7 @@ const Menu = () => {
             <h4>Jäätelö-Annokset</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="menu-button-text">Valikoima</p></button>
         </li>
         <li className='menu-item' onClick={() => expandMenu('Ingman Irtojäätelö')} >
           <img src={'https://i.imgur.com/z7HMkKD.jpg'} alt="Ingman Irtojäätelö" />
@@ -370,7 +395,7 @@ const Menu = () => {
             <h4>Ingman Irtojäätelö</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="menu-button-text">Valikoima</p></button>
         </li>
         <li className='menu-item' onClick={() => expandMenu('Juomat')} >
           <img src={'https://i.imgur.com/zq6cIjK.jpg'} alt="Juomat" />
@@ -378,7 +403,7 @@ const Menu = () => {
             <h4>Juomat</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="menu-button-text">Valikoima</p></button>
         </li>
         <li className='menu-item' onClick={() => expandMenu('Muut Tuotteet')} >
           <img src={'https://i.imgur.com/DWW581A.jpg'} alt="Muut tuotteet" />
@@ -386,7 +411,7 @@ const Menu = () => {
             <h4>Muut tuotteet</h4>
           </div>
           {/* <p></p> */}
-            <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
+            <button className='menu-button'><p className="menu-button-text">Valikoima</p></button>
         </li>
       </ul>
     </section>
