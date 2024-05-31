@@ -42,7 +42,7 @@ const HeroSection = () => {
             
         </div>
       ))}
-      
+      <img className='logo' src={Logo} alt="logo" />
     <div className="hero-box"></div>
 {/*       
       <div className="hero-video-container">

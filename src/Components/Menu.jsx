@@ -357,14 +357,14 @@ const Menu = () => {
             <button className='menu-button'><p className="hover-underline-animation">Valikoima</p></button>
         </li> */}
         <li className='menu-item' >
-          <img src={'https://i.imgur.com/xuk8P6n.png'} alt="Wrapit" />
+          <img src={'https://mrpanini.fi/app/uploads/2022/04/02-kana-mrpanini-22-10-2-1-scaled.jpg'} alt="Wrapit" />
           <div>
             <h4>Wrapit</h4>
           </div>
             <button disabled className='menu-button'><p className="menu-button-text">£ 6,50</p></button>
         </li>
         <li className='menu-item' >
-          <img src={'https://mrpanini.fi/app/uploads/2022/04/02-kana-mrpanini-22-10-2-1-scaled.jpg'} alt="pannari annokset" />
+          <img src={'https://i.imgur.com/xuk8P6n.png'}  alt="pannari annokset" />
           <div>
             <h4>Paninit</h4>
           </div>
