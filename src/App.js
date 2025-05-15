@@ -1,14 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
-import Landing from './Pages/Landing'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Landing from './Pages/Landing';
+import Rent from './Components/Rent'; // <-- lisää tämä
 
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <Landing />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/vuokraa" element={<Rent />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
