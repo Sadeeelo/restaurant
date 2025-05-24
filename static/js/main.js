@@ -1,0 +1,1 @@
+// Simuloitu JS
