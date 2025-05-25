@@ -74,3 +74,22 @@ const HeroSection = () => {
 }
 
 export default HeroSection;
+
+const OpeningHours = () => (
+  <div style={{ backgroundColor: '#000', color: '#fff', padding: '2rem', textAlign: 'center' }}>
+    <h2>Kesämökki on avoinna säävarauksella 2025</h2>
+    <p>ma–to 13–20<br />
+    pe 13–21<br />
+    la 11–21<br />
+    su 11–20</p>
+  </div>
+);
+
+export default function Hero() {
+  return (
+    <div>
+      <HeroSection />
+      <OpeningHours />
+    </div>
+  );
+}
