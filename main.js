@@ -1,1 +1,1 @@
-// Simuloitu JS
+// Tämä simuloitu main.js-tiedosto edustaa React buildia
